@@ -6,7 +6,7 @@ function greet_me() {
         let message = [];
     message.push(document.getElementById('name').value);
     const d = new Date();
-    let hours =12
+    let hours = d.getHours();
 
     if (hours >= 5 && hours < 12) {
         message.push('Good morning');
